@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './objets.component.scss',
 })
 export class ObjetsComponent {
+
   favorites: Objet[] = [
     {
       id: 1,
@@ -33,4 +34,6 @@ export class ObjetsComponent {
     this.favorites.push(objet);
     console.log('Ajouté aux favoris');
   }
+
+
 }
